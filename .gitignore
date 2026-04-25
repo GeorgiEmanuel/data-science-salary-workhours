@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+env/
+venv/
+env_si/
+env_si2/
+.env
+.venv
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+data/
+
+# Figures / outputs (optional — uncomment if nu vrei sa urci graficele)
+# figures_D1/
+# figures_D2/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+
+# Catboost specific
+catboost_info/
